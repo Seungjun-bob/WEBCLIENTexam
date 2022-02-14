@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS실습</title>
+
+    <style>
+        body{
+            text-align: center;
+        }
+
+        .top{
+            height: 150px; 
+            width:400px;
+            margin: 0 auto;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-image: linear-gradient(to right,red,orange,yellow,green,blue,navy);
+            border-radius: 30px;
+        }
+
+        h1{
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .text1{
+            color: blue;
+        }
+        
+        .text2{
+            color: white;
+        }
+
+        .img1{
+            background-size: 150px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+            background-image: url(../images/cloud_sun.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex:1;
+            box-sizing: border-box;
+        }
+
+        .img1:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .img2{
+            background-size: 150px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+            background-image: url(../images/cloud.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex:1;
+            box-sizing: border-box;
+        }
+
+        .img2:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .img3{
+            background-size: 150px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+            background-image: url(../images/etc.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex:1;
+            box-sizing: border-box;
+        }
+
+        .img3:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .img4{
+            background-size: 150px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+            background-image: url(../images/rain.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex:1;
+            box-sizing: border-box;
+        }
+
+        .img4:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .img5{
+            background-size: 150px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+            background-image: url(../images/snow.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex:1;
+            box-sizing: border-box;
+        }
+
+        .img5:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .img6{
+            background-size: 150px;
+            width: 400px;
+            height: 400px;
+            box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+            background-image: url(../images/sun.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            flex:1;
+            box-sizing: border-box;
+        }
+
+        .img6:hover{
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        .box1{
+            width: 50%;
+            margin: 10px auto;
+            display: flex;
+            padding: 50px;
+        }
+
+        .box2{
+            width: 50%;
+            margin: 10px auto;
+            display: flex;
+            padding: 50px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div class="top">
+        <h1><span class="text1">날씨</span><span class="text2">의 종류</span></h1>
+    </div>
+
+    <hr>
+
+    <div class="box1">
+        <div class="img1">
+        </div>
+        <div class="img2">
+        </div>
+        <div class="img3">
+        </div>
+    </div>
+
+    <div class="box1">
+        <div class="img4">
+        </div>
+        <div class="img5">
+        </div>
+        <div class="img6">
+        </div>
+    </div>
+
+</body>
+</html>

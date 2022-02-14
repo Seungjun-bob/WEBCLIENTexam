@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        header {
+            background : linear-gradient(black, pink);
+            text-align : center;
+            margin : 20px 20px 10px;
+            padding : 20px;
+        }
+        article {
+            border : 3px dashed pink;
+            border-radius : 1%;
+            margin : 20px 200px;
+            padding : 10px 20px;
+        }
+        aside {
+            text-align : center;
+        }
+        footer {
+            background : black;
+            border : 1px solid;
+            text-align : center;
+            margin : 20px 20px;
+            padding : 30px;
+        }
+        h1 {
+            color : white;
+            text-shadow : 2px 2px 2px black;
+        }
+        a {
+            text-decoration : none;
+            margin : 40px;
+        }
+        a:hover {
+            font-weight : bold;
+        }
+        table,th,td {
+            border : 1px solid green;
+            border-collapse : collapse;
+            padding : 5px 15px;
+        }
+        th {
+            background : green;
+        }
+        .t1 {
+            color : pink;
+        }
+        .t2 {
+            color : green;
+        }
+        .t3 {
+            color : blue;
+        }
+        img {
+            display : block;
+            margin : 0px auto;
+        }
+        img:hover {
+            opacity : 0.5;
+        }
+        figure {
+            margin-right : auto;
+            margin-left : auto;
+            width : 500px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HTML5 학습</h1>
+        <nav>
+            <a href="https://www.w3.org/">W3C</a>
+            <a href="https://www.w3schools.com/">W3SCHOOLS</a>
+            <a href="https://jquery.com/">jQuery</a>
+        </nav>
+    </header>
+    <section>
+        <article>
+            <h2 class="t1">나의 소개</h2>
+                <ul>
+                    <li>이름 : 강승준</li>
+                    <li>별명 : 유니크</li>
+                    <li>관심기술 : Python</li>
+                    <li>취미 : 영화감상</li>
+                </ul>
+        </article>
+        <article>
+            <h2 class="t2">올해 재미있게 읽은 책</h2>
+                <table>
+                    <th>제목</th>
+                    <th>장르</th>
+                    <tr>
+                        <td>파이썬 정복</td>
+                        <td>IT</td>
+                    </tr>
+                    <tr>
+                        <td>생활코딩 HTML</td>
+                        <td>IT</td>
+                    </tr>
+                </table>
+        </article>
+        <article>
+            <h2 class="t3">자랑하고 싶은 <span style="color:purple;">우리동네의</span> 아름다운 곳</h2>
+            <p>에펠탑은 프랑스 파리의 상징적 건축물로, 1889년에 프랑스 혁명 100주년을 맞이하여 파리 만국 박람회를 개최하였는데
+                이 박람회를 상징할만한 기념물로 에펠 탑을 건축하였다.</p>
+            <figure>
+            <img src="../images/Eiffel_Tower.jpg" alt="에펠탑" width="300">
+            <figcaption style="text-align:center;">에펠탑</figcaption>
+            </figure>
+        </article>
+    </section>
+    <aside>
+        <video controls width="700" autoplay="autoplay">
+                <source src="../images/People - 84973.mp4"
+                type="video/mp4">
+        </video><br>
+    </aside>
+    <footer>
+        <em style="color:white;">이 문서는 강승준에 의해 HTML5와 CSS3 기술을 사용하여 2020년 1월 3일에 작성하였습니다.(ver1.0)</em>
+    </footer>
+</body>
+</html>
